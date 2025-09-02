@@ -256,6 +256,7 @@ public class RentCompanyEmbaddedTest {
 
 
 
+    //===================== HW Sprint 2=================
     @Test
     void testReturnCar_NoDamages_NoDelay() {
         company.addModel(model);
@@ -364,7 +365,7 @@ public class RentCompanyEmbaddedTest {
         assertNull(company.removeCar(REG_NUMBER));
     }
 
-    
+
 
 
 
